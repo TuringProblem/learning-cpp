@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <print>
 #include <string>
+#include "example.hpp"
 
 struct HeapMemory {
   void* memory;
@@ -85,6 +86,8 @@ int main() {
     print_pair(&p);
     print_by_ref(p);
 
+
+    use();
     return 0;
 
 } 
