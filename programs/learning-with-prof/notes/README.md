@@ -7,3 +7,9 @@
 # How to build your own, and test with assembly:
 > go inside of the `/build` directory and run `cmake ..` then you will be able to run `objdump -d -Mintel main > <filename>` to see the asm dump that you wish. 
 
+
+
+stack adds all variables to the stack, and requires 8mb on the stack
+
+`virtualAlloc function` -> for windows based virtual memory [see]()
+`mmap function` -> for unix based virtual memory [see]()
