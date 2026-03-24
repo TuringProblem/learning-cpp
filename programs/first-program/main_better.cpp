@@ -1,11 +1,13 @@
 #include <iostream>
 
+// needs c++11 I guess... wonder why that is the case?
+
 // default structs are public baby
 
 struct Example {
   int a;
   int b;
-  int calc(int c, int d){return c + d;};// need a body in this bitch
+    int calc(int c, int d){ return c + d; };// need a body in this bitch
 };
 
 
