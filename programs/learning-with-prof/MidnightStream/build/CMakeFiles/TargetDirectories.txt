@@ -1,3 +1,0 @@
-/Users/andrewwellington/Documents/learning-cpp/programs/learning-with-prof/MidnightStream/build/CMakeFiles/main.dir
-/Users/andrewwellington/Documents/learning-cpp/programs/learning-with-prof/MidnightStream/build/CMakeFiles/edit_cache.dir
-/Users/andrewwellington/Documents/learning-cpp/programs/learning-with-prof/MidnightStream/build/CMakeFiles/rebuild_cache.dir
