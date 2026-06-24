@@ -2,7 +2,9 @@
 #include "data.hpp"
 
 int main() {
-  std::println("Hello, world!");
+  main_screen();
+
+
   int value = add(10, 20);
   Data d = {
     { 10, 20 }
