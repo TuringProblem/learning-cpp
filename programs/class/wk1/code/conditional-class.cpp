@@ -8,6 +8,15 @@ void ifSituations(int expr) {
   }
 }
 
+
+void runCases(int expr) {
+  switch(expr) {
+    case 1: std::cout << "One\n"; break;
+    case 2: std::cout << "Two\n"; break;
+    case 3: std::cout << "Three\n"; break;
+    default: std::cout << "Zerno\n";
+  }
+}
 int main() {
 
   std::cout << "Enter a Number: ";
@@ -58,6 +67,8 @@ int main() {
 
   isEven(n) ? std::cout << n << " is even\n" : std::cout << n << " is odd\n";
   
+  // switch statement has follow through - meaning if you don't do break; after something then it will proceed down the next case.
+  runCases(n);
 
   return 0;
 }
